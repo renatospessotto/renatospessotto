@@ -67,6 +67,8 @@ Projetos entregues para clientes na **Cognitivo.ai**. O código é privado; aqui
 
 ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6db33f?style=flat-square&logo=spring&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-dd0031?style=flat-square&logo=angular&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ed?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-ECS%20%C2%B7%20Lambda%20%C2%B7%20S3%20%C2%B7%20Athena-232f3e?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088ff?style=flat-square&logo=githubactions&logoColor=white)
