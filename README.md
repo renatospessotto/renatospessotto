@@ -12,7 +12,7 @@ Ciência da Computação no ICMC/USP (São Carlos) · IA generativa na Cognitivo
 
 </div>
 
-| **6** | **4** | **3** | **0,84** |
+| **6** | **5** | **3** | **0,84** |
 |:---:|:---:|:---:|:---:|
 | projetos de ML e IA públicos, com relatório e reprodução | modelos e datasets publicados no Hugging Face | sistemas com LLM entregues em produção para clientes | F1 da cascata calibrada que supera o Claude com 20% das chamadas |
 
@@ -35,7 +35,7 @@ Ciência da Computação no ICMC/USP (São Carlos) · IA generativa na Cognitivo
 | Projeto | Resultado | Stack |
 |---|---|---|
 | [**review-intelligence-ptbr**](https://github.com/renatospessotto/review-intelligence-ptbr) | Laya × BERTimbau × Qwen destilados do Claude: **F1 0,74 a 1/30 do custo**; cascata **0,84 vs 0,79** do Claude | Laya, Transformers, PEFT/TRL, FastAPI, Docker |
-| [**bertimbau-mental-health-ptbr**](https://github.com/renatospessotto/bertimbau-mental-health-ptbr) | Dataset próprio de 3 mil comentários anotados; BERTimbau com TAPT, focal loss e ensemble: **F1-macro 0,60 vs 0,40** do melhor modelo pronto | Transformers, PyTorch |
+| [**bertimbau-mental-health-ptbr**](https://github.com/renatospessotto/bertimbau-mental-health-ptbr) | Dataset próprio de 3 mil comentários anotados; BERTimbau com TAPT, focal loss e ensemble: **F1-macro 0,59 vs 0,40** do melhor modelo pronto; [modelo no Hugging Face](https://huggingface.co/RenatoSpessotto/bertimbau-apoio-saude-mental-ptbr) | Transformers, PyTorch |
 | [**vit-vs-cnn-oxford-pets**](https://github.com/renatospessotto/vit-vs-cnn-oxford-pets) | ViT-B/16 com **94,1%** em 37 raças, melhor que as CNNs com McNemar p < 0,001; Grad-CAM e attention rollout | PyTorch, torchvision |
 | [**copd-cough-audio-classifier**](https://github.com/renatospessotto/copd-cough-audio-classifier) | DPOC pelo áudio da tosse: **ROC-AUC 0,936**, com checagens de vazamento de dados | librosa, scikit-learn |
 | [**firewall-log-genetic-programming**](https://github.com/renatospessotto/firewall-log-genetic-programming) | Programação Genética em 1,5M de logs reais com concept drift: **F1-macro 0,475 → 0,587** | DEAP, NumPy |
