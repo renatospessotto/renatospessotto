@@ -12,7 +12,7 @@ Ciência da Computação no ICMC/USP (São Carlos) · IA generativa na Cognitivo
 
 </div>
 
-| **5** | **4** | **3** | **0,84** |
+| **6** | **4** | **3** | **0,84** |
 |:---:|:---:|:---:|:---:|
 | projetos de ML e IA públicos, com relatório e reprodução | modelos e datasets publicados no Hugging Face | sistemas com LLM entregues em produção para clientes | F1 da cascata calibrada que supera o Claude com 20% das chamadas |
 
@@ -39,6 +39,7 @@ Ciência da Computação no ICMC/USP (São Carlos) · IA generativa na Cognitivo
 | [**vit-vs-cnn-oxford-pets**](https://github.com/renatospessotto/vit-vs-cnn-oxford-pets) | ViT-B/16 com **94,1%** em 37 raças, melhor que as CNNs com McNemar p < 0,001; Grad-CAM e attention rollout | PyTorch, torchvision |
 | [**copd-cough-audio-classifier**](https://github.com/renatospessotto/copd-cough-audio-classifier) | DPOC pelo áudio da tosse: **ROC-AUC 0,936**, com checagens de vazamento de dados | librosa, scikit-learn |
 | [**firewall-log-genetic-programming**](https://github.com/renatospessotto/firewall-log-genetic-programming) | Programação Genética em 1,5M de logs reais com concept drift: **F1-macro 0,475 → 0,587** | DEAP, NumPy |
+| [**rice-yield-automl-autogluon**](https://github.com/renatospessotto/rice-yield-automl-autogluon) | AutoGluon reproduzindo um artigo do SBSI 2026: **MAPE 7,2% vs 13,7%** do XGBoost do artigo, com ensemble inspecionado e variação entre sementes | AutoGluon, scikit-learn |
 
 ## IA generativa em produção
 
