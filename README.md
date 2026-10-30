@@ -4,7 +4,7 @@
 
 ### IA generativa, machine learning e engenharia de dados: do notebook à produção, com avaliação, custo e deploy pensados desde o início.
 
-Ciência da Computação no ICMC/USP (São Carlos) · IA generativa na Cognitivo.ai
+Ciência da Computação no ICMC/USP (São Carlos) · Tech Intern na Embraer · antes, IA generativa e dados na Cognitivo.ai
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-renato--spessotto-2a78d6?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/renato-spessotto-b6a2232b0)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-RenatoSpessotto-eda100?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/RenatoSpessotto)
@@ -12,9 +12,9 @@ Ciência da Computação no ICMC/USP (São Carlos) · IA generativa na Cognitivo
 
 </div>
 
-| **6** | **5** | **3** | **0,84** |
+| **7** | **6** | **10x** | **0,84** |
 |:---:|:---:|:---:|:---:|
-| projetos de ML e IA públicos, com relatório e reprodução | modelos e datasets publicados no Hugging Face | sistemas com LLM entregues em produção para clientes | F1 da cascata calibrada que supera o Claude com 20% das chamadas |
+| projetos de ML e IA públicos, com relatório e reprodução | modelos e datasets publicados no Hugging Face | custo de consultas no Athena reduzido para um cliente com Iceberg + Z-Order | F1 da cascata calibrada que supera o Claude com 20% das chamadas |
 
 ## Em destaque: Review Intelligence PT-BR
 
@@ -42,15 +42,17 @@ Ciência da Computação no ICMC/USP (São Carlos) · IA generativa na Cognitivo
 | [**firewall-log-genetic-programming**](https://github.com/renatospessotto/firewall-log-genetic-programming) | Programação Genética em 1,5M de logs reais com concept drift: **F1-macro 0,475 → 0,587** | DEAP, NumPy |
 | [**rice-yield-automl-autogluon**](https://github.com/renatospessotto/rice-yield-automl-autogluon) | AutoGluon reproduzindo um artigo do SBSI 2026: **MAPE 7,2% vs 13,7%** do XGBoost do artigo, com ensemble inspecionado e variação entre sementes | AutoGluon, scikit-learn |
 
-## IA generativa em produção
+## Em produção na Cognitivo.ai
 
-Projetos entregues para clientes na **Cognitivo.ai**. O código é privado; aqui fica só a descrição.
+Sistemas entregues para clientes entre mai/2025 e abr/2026. O código é privado; aqui ficam o problema e o resultado.
 
-- **Mensagens de recompra:** plataforma em React com **FastAPI + LangChain** que gera mensagens personalizadas a partir do perfil de cada cliente. O deploy é em alta disponibilidade na AWS (CloudFront, ECS, Auto Scaling, Secrets Manager), com CI/CD no GitHub Actions (OIDC).
-- **Chatbot para um SaaS de contabilidade:** construído em **n8n**, responde com os dados da empresa no contexto do LLM, usando Redis, RabbitMQ e Qdrant.
-- **Reuniões → tarefas:** pipeline em n8n que lê transcrições do Google Meet, extrai itens de ação com um **LLM** e cria tarefas no Asana, no projeto e com o responsável certos.
-
-<!-- TODO: acrescentar o impacto real de cada um (horas economizadas, volume de mensagens/atendimentos). -->
+| Projeto | O que faz | Resultado | Stack |
+|---|---|---|---|
+| **Consultas 10x mais baratas** | Para um cliente de consultoria farmacêutica, migrei o dataset de clustering para **Apache Iceberg** com **Z-Order** no S3 | Dados lidos por cliente de **1 GB para 100 MB**, custo das consultas no Athena **10x menor**, resposta de **5s para 1s** | Iceberg, S3, Athena |
+| **Chatbot com RAG** | Atendimento de um SaaS de contabilidade: busca os dados da empresa num banco vetorial e responde com um LLM | Assumiu as dúvidas simples de clientes antes respondidas por um funcionário | n8n, Qdrant, Redis, RabbitMQ |
+| **Reuniões → tarefas** | Lê transcrições do Google Meet, extrai os itens de ação com um LLM e cria as tarefas no Asana, no projeto e com o responsável certos | Poupa **30–45 min de organização por reunião** (estimativa de 120–360 h/ano por gerente de projeto) | n8n, LLM, Asana |
+| **Mensagens de recompra** | Gera mensagens personalizadas a partir do perfil de cada cliente | Em produção na AWS com alta disponibilidade (CloudFront, ECS, Auto Scaling, Secrets Manager) e CI/CD por OIDC | FastAPI, LangChain, React, AWS |
+| **Armazenamento no S3** | Políticas de ciclo de vida nos buckets do S3 | **35–40% menos** custo de armazenamento | S3 |
 
 ## Stack
 
@@ -85,4 +87,4 @@ Projetos entregues para clientes na **Cognitivo.ai**. O código é privado; aqui
 
 ---
 
-<sub>*In English:* Computer Science student at ICMC/USP (Brazil) building generative AI projects at Cognitivo.ai, working on generative AI, machine learning and data engineering. Highlight: [review-intelligence-ptbr](https://github.com/renatospessotto/review-intelligence-ptbr), which distills Claude into small calibrated encoders whose cascade beats the teacher with 20% of the API calls.</sub>
+<sub>*In English:* Computer Science student at ICMC/USP (Brazil), tech intern at Embraer, previously building generative AI and data systems in production at Cognitivo.ai (e.g., Athena queries 10x cheaper with Iceberg + Z-Order, a RAG chatbot that took over routine customer questions). Highlight: [review-intelligence-ptbr](https://github.com/renatospessotto/review-intelligence-ptbr), which distills Claude into small calibrated encoders whose cascade beats the teacher with 20% of the API calls.</sub>
