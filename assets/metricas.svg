@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Números em destaque">
-<rect width="1200" height="150" fill="#0a0a0a"/>
-<rect width="1200" height="150" fill="none" stroke="#1f3354" stroke-width="2"/>
-<text x="28" y="66" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#f2f4f7">0,84</text>
-<text x="28" y="98" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#9aa4b2">F1 da cascata Laya → Claude,</text>
-<text x="28" y="121" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#9aa4b2">acima do próprio Claude (0,79)</text>
-<rect x="300" y="24" width="1" height="102" fill="#1f3354"/>
-<text x="328" y="66" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#f2f4f7">5% → 57%</text>
-<text x="328" y="98" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#9aa4b2">recall de hotspots solares numa</text>
-<text x="328" y="121" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#9aa4b2">câmera que o modelo nunca viu</text>
-<rect x="600" y="24" width="1" height="102" fill="#1f3354"/>
-<text x="628" y="66" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#f2f4f7">10x</text>
-<text x="628" y="98" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#9aa4b2">custo de consultas no Athena</text>
-<text x="628" y="121" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#9aa4b2">em produção (Iceberg + Z-Order)</text>
-<rect x="900" y="24" width="1" height="102" fill="#1f3354"/>
-<text x="928" y="66" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#f2f4f7">14 padrões</text>
-<text x="928" y="98" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#9aa4b2">de algoritmos, revisados pela</text>
-<text x="928" y="121" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#9aa4b2">curva de esquecimento</text>
+<rect width="1200" height="150" fill="#f3f5f8"/>
+<rect width="1200" height="150" fill="none" stroke="#d5dce6" stroke-width="2"/>
+<text x="28" y="66" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#0b1d3a">0,84</text>
+<text x="28" y="98" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#4a5568">F1 da cascata Laya → Claude,</text>
+<text x="28" y="121" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#4a5568">acima do próprio Claude (0,79)</text>
+<rect x="300" y="24" width="1" height="102" fill="#d5dce6"/>
+<text x="328" y="66" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#0b1d3a">5% → 57%</text>
+<text x="328" y="98" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#4a5568">recall de hotspots solares numa</text>
+<text x="328" y="121" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#4a5568">câmera que o modelo nunca viu</text>
+<rect x="600" y="24" width="1" height="102" fill="#d5dce6"/>
+<text x="628" y="66" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#0b1d3a">10x</text>
+<text x="628" y="98" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#4a5568">custo de consultas no Athena</text>
+<text x="628" y="121" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#4a5568">em produção (Iceberg + Z-Order)</text>
+<rect x="900" y="24" width="1" height="102" fill="#d5dce6"/>
+<text x="928" y="66" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#0b1d3a">14 padrões</text>
+<text x="928" y="98" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#4a5568">de algoritmos, revisados pela</text>
+<text x="928" y="121" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#4a5568">curva de esquecimento</text>
 </svg>
