@@ -4,9 +4,9 @@
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-renato--spessotto-0b1d3a?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a0a)](https://www.linkedin.com/in/renato-spessotto-b6a2232b0)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-RenatoSpessotto-0b1d3a?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=0a0a0a)](https://huggingface.co/RenatoSpessotto)
-[![Email](https://img.shields.io/badge/email-spessottorenato%40gmail.com-0b1d3a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a0a)](mailto:spessottorenato@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-renato--spessotto-0b1d3a?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=2f5d94)](https://www.linkedin.com/in/renato-spessotto-b6a2232b0)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-RenatoSpessotto-0b1d3a?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=2f5d94)](https://huggingface.co/RenatoSpessotto)
+[![Email](https://img.shields.io/badge/email-spessottorenato%40gmail.com-0b1d3a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=2f5d94)](mailto:spessottorenato@gmail.com)
 
 <br>
 
@@ -33,9 +33,9 @@
 <img src="https://raw.githubusercontent.com/renatospessotto/thermal-pv-hotspots-assimilation/main/docs/figures/01_camera_nova.png" width="100%" alt="Recall e AUROC numa câmera nova a cada etapa de assimilação">
 </details>
 
-![DINOv3](https://img.shields.io/badge/DINOv3-0b1d3a?style=flat-square&logo=meta&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-0b1d3a?style=flat-square&logo=pytorch&logoColor=white)
-[![HF](https://img.shields.io/badge/HF-modelo-0b1d3a?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/RenatoSpessotto/thermal-pv-hotspots-assimilation)
+![DINOv3](https://img.shields.io/badge/DINOv3-0467df?style=flat-square&logo=meta&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=pytorch&logoColor=white)
+[![HF](https://img.shields.io/badge/HF-modelo-ffd21e?style=flat-square&logo=huggingface&logoColor=ffd21e&labelColor=0b1d3a)](https://huggingface.co/RenatoSpessotto/thermal-pv-hotspots-assimilation)
 
 <img src="assets/divisor.svg" width="100%" alt="">
 
@@ -54,10 +54,10 @@
 <img src="https://raw.githubusercontent.com/renatospessotto/review-intelligence-ptbr/main/docs/figures/01_custo_f1.png" width="100%" alt="Qualidade (F1) versus custo por review de cada modelo">
 </details>
 
-[![Laya](https://img.shields.io/badge/HF-Laya%20ajustado-0b1d3a?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/RenatoSpessotto/laya-aspectos-reviews-ptbr)
-[![BERTimbau](https://img.shields.io/badge/HF-BERTimbau-0b1d3a?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/RenatoSpessotto/bertimbau-aspectos-reviews-ptbr)
-[![Qwen](https://img.shields.io/badge/HF-Qwen3.5--2B%20LoRA-0b1d3a?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/RenatoSpessotto/qwen3.5-2b-aspectos-reviews-ptbr-lora)
-[![Dataset](https://img.shields.io/badge/HF-dataset-0b1d3a?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/RenatoSpessotto/olist-aspectos-reviews-ptbr)
+[![Laya](https://img.shields.io/badge/HF-Laya%20ajustado-ffd21e?style=flat-square&logo=huggingface&logoColor=ffd21e&labelColor=0b1d3a)](https://huggingface.co/RenatoSpessotto/laya-aspectos-reviews-ptbr)
+[![BERTimbau](https://img.shields.io/badge/HF-BERTimbau-ffd21e?style=flat-square&logo=huggingface&logoColor=ffd21e&labelColor=0b1d3a)](https://huggingface.co/RenatoSpessotto/bertimbau-aspectos-reviews-ptbr)
+[![Qwen](https://img.shields.io/badge/HF-Qwen3.5--2B%20LoRA-ffd21e?style=flat-square&logo=huggingface&logoColor=ffd21e&labelColor=0b1d3a)](https://huggingface.co/RenatoSpessotto/qwen3.5-2b-aspectos-reviews-ptbr-lora)
+[![Dataset](https://img.shields.io/badge/HF-dataset-ffd21e?style=flat-square&logo=huggingface&logoColor=ffd21e&labelColor=0b1d3a)](https://huggingface.co/datasets/RenatoSpessotto/olist-aspectos-reviews-ptbr)
 
 <img src="assets/divisor.svg" width="100%" alt="">
 
@@ -70,11 +70,11 @@
 - **Dados reproduzíveis, nenhum dado no git.** Um ETL em Python cruza dois datasets públicos fixados por commit e mapeia as tags oficiais para os 14 padrões, dentro do build do Docker.
 - **Um container em produção.** O Angular vai dentro do jar do Spring Boot; o Flyway cuida do schema e do seed. Telas de hoje, explorar, estatísticas (heatmap, sequências, padrões fracos/fortes), histórico e leitura de papers.
 
-![Java](https://img.shields.io/badge/Java%2021-0b1d3a?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot%203.3-0b1d3a?style=flat-square&logo=springboot&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular%2018-0b1d3a?style=flat-square&logo=angular&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL%2016-0b1d3a?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0b1d3a?style=flat-square&logo=docker&logoColor=white)
+![Java](https://img.shields.io/badge/Java%2021-f89820?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot%203.3-6db33f?style=flat-square&logo=springboot&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular%2018-dd0031?style=flat-square&logo=angular&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL%2016-4169e1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ed?style=flat-square&logo=docker&logoColor=white)
 
 <br>
 
@@ -100,33 +100,33 @@ Sistemas de IA generativa e dados que entreguei para clientes entre mai/2025 e a
 
 **IA e ML**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-0b1d3a?style=flat-square&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Transformers-0b1d3a?style=flat-square&logo=huggingface&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0b1d3a?style=flat-square&logo=scikitlearn&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-0b1d3a?style=flat-square&logo=langchain&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude%20API-0b1d3a?style=flat-square&logo=anthropic&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-0b1d3a?style=flat-square&logo=qdrant&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-0b1d3a?style=flat-square&logo=n8n&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-0b1d3a?style=flat-square&logo=gradio&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-0b1d3a?style=flat-square&logo=pytorch&logoColor=ee4c2c)
+![Hugging Face](https://img.shields.io/badge/Transformers-0b1d3a?style=flat-square&logo=huggingface&logoColor=ffd21e)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0b1d3a?style=flat-square&logo=scikitlearn&logoColor=f7931e)
+![LangChain](https://img.shields.io/badge/LangChain-0b1d3a?style=flat-square&logo=langchain&logoColor=1c9b8c)
+![Claude](https://img.shields.io/badge/Claude%20API-0b1d3a?style=flat-square&logo=anthropic&logoColor=d97757)
+![Qdrant](https://img.shields.io/badge/Qdrant-0b1d3a?style=flat-square&logo=qdrant&logoColor=dc244c)
+![n8n](https://img.shields.io/badge/n8n-0b1d3a?style=flat-square&logo=n8n&logoColor=ea4b71)
+![Gradio](https://img.shields.io/badge/Gradio-0b1d3a?style=flat-square&logo=gradio&logoColor=f97316)
 
 **Backend e cloud**
 
-![Python](https://img.shields.io/badge/Python-0b1d3a?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-0b1d3a?style=flat-square&logo=openjdk&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0b1d3a?style=flat-square&logo=fastapi&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring%20Boot-0b1d3a?style=flat-square&logo=springboot&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-0b1d3a?style=flat-square&logo=angular&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0b1d3a?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-ECS%20%C2%B7%20Lambda%20%C2%B7%20S3%20%C2%B7%20Athena-0b1d3a?style=flat-square&logo=amazonwebservices&logoColor=white&labelColor=0a0a0a)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0b1d3a?style=flat-square&logo=githubactions&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0b1d3a?style=flat-square&logo=python&logoColor=3776ab)
+![Java](https://img.shields.io/badge/Java-0b1d3a?style=flat-square&logo=openjdk&logoColor=f89820)
+![FastAPI](https://img.shields.io/badge/FastAPI-0b1d3a?style=flat-square&logo=fastapi&logoColor=009688)
+![Spring](https://img.shields.io/badge/Spring%20Boot-0b1d3a?style=flat-square&logo=springboot&logoColor=6db33f)
+![Angular](https://img.shields.io/badge/Angular-0b1d3a?style=flat-square&logo=angular&logoColor=dd0031)
+![Docker](https://img.shields.io/badge/Docker-0b1d3a?style=flat-square&logo=docker&logoColor=2496ed)
+![AWS](https://img.shields.io/badge/AWS-ECS%20%C2%B7%20Lambda%20%C2%B7%20S3%20%C2%B7%20Athena-0b1d3a?style=flat-square&logo=amazonwebservices&logoColor=ff9900&labelColor=2f5d94)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0b1d3a?style=flat-square&logo=githubactions&logoColor=2088ff)
 
 **Dados**
 
-![Airflow](https://img.shields.io/badge/Airflow-0b1d3a?style=flat-square&logo=apacheairflow&logoColor=white)
-![Iceberg](https://img.shields.io/badge/Apache%20Iceberg-0b1d3a?style=flat-square&logo=apache&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0b1d3a?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-0b1d3a?style=flat-square&logo=redis&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-0b1d3a?style=flat-square&logo=rabbitmq&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-0b1d3a?style=flat-square&logo=apacheairflow&logoColor=017cee)
+![Iceberg](https://img.shields.io/badge/Apache%20Iceberg-0b1d3a?style=flat-square&logo=apache&logoColor=d22128)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0b1d3a?style=flat-square&logo=postgresql&logoColor=4169e1)
+![Redis](https://img.shields.io/badge/Redis-0b1d3a?style=flat-square&logo=redis&logoColor=dc382d)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-0b1d3a?style=flat-square&logo=rabbitmq&logoColor=ff6600)
 
 <img src="assets/divisor.svg" width="100%" alt="">
 
